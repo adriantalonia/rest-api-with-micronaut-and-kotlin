@@ -6,7 +6,6 @@ Learn how to build a Full Stack web application with React and Java Spring Boot 
 
 - Adrián Talonia Ramos [Java FullStack Developer] [@adriantalonia](https://github.com/adriantalonia)
 
-
 ## Technology Stack
 - Java 18
 - Javascript/Typescript
