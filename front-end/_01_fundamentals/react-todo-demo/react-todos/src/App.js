@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import TodoRowItem from "./components/TodoRowItem";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="mt-5 container">
+      <div className="card">
+        <div className="card-header">Your Todo's</div>
+      </div>
+      <div className="card-body">
+        <table className="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Description</th>
+              <th scope="col">name</th>
+            </tr>
+          </thead>
+          <tbody>
+            <TodoRowItem/>
+            <TodoRowItem/>
+            <tr>
+              <th scope="row">2</th>
+              <td>test</td>
+              <td>Adrian</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </div>
   );
 }
